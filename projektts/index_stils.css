@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(25, 26, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.header {
+  
+  overflow: hidden;
+  background-color: rgb(62, 67, 46);
+}
+
+.header a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header a:hover{
+  background-color: rgb(167, 209, 41);
+  color: crimson;
+}
+
+.top-container {
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#sakums {
+  height: auto;
+  background-color: rgb(97, 111, 57);
+}
+
+#par {
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+button{
+  float: middle;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background-color: rgb(97, 111, 57);
+  border-radius: 10px;
+  padding: 14px 16px
+}
